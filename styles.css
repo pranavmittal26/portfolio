@@ -1,0 +1,121 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .header {
+    margin-bottom: 2em;
+  }
+  
+  .sign {
+    width: 590px;
+    height: 510px;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .sign-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 1em 0 0.5em;
+  }
+  
+  p {
+    font-size: 1em;
+    margin: 0.5em 0;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+  }
+  
+  .timer {
+    background-color: #ffd700;
+    padding: 1em;
+    border-radius: 8px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timer span {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .timer p {
+    margin: 0;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    p {
+      font-size: 0.9em;
+    }
+  
+    .timer {
+      width: 60px;
+      padding: 0.8em;
+    }
+  
+    .timer span {
+      font-size: 1.5em;
+    }
+  
+    .timer p {
+      font-size: 0.7em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.2em;
+    }
+  
+    .sign {
+      padding: 0.5em;
+    }
+  
+    .timer {
+      width: 50px;
+      padding: 0.6em;
+    }
+  
+    .timer span {
+      font-size: 1.2em;
+    }
+  
+    .timer p {
+      font-size: 0.6em;
+    }
+  }
+  
