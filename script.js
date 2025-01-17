@@ -1,6 +1,6 @@
 // script.js
 const countdown = () => {
-    const targetDate = new Date("2025-01-16T00:00:00").getTime(); // Adjust your target date here
+    const targetDate = new Date("2025-01-20T00:00:00").getTime(); // Adjust your target date here
     const now = new Date().getTime();
     const gap = targetDate - now;
   
